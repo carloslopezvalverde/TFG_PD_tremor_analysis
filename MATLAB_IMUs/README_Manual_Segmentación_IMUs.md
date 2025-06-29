@@ -1,4 +1,5 @@
 MANUAL SEGMENTACIÓN DATOS IMUs
+
 Para segmentar los datos en tareas usamos el código segmentacion_señales_IMUs.m de MATLAB. 
 Este código, tiene como objetivo procesar los datos de sensores IMU (Unidad de Medición Inercial) y de sincronización externa (trigger), para analizarlos, interpolar los tiempos y detectar los 8 eventos de interés que marcan el start y el stop de nuestras 4 tareas para así poder separarlas. 
 Para que funcione, lo primero que debemos hacer en el workspace de MATLAB es llamar al archivo que queremos cortar. Para ello le damos la ruta y el nombre a la variable fileName, de esta forma:
