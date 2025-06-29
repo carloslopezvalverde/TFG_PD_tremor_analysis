@@ -63,7 +63,7 @@ Este script se usó para determinar el umbral a partir del cual en un espectrogr
 
 ---
 
-#### 4. Visualización de Métricas en Radar Plots (*radar\_plots\_parámetros\_IMUs.m*)
+#### 3. Visualización de Métricas en Radar Plots (*radar\_plots\_parámetros\_IMUs.m*)
 
 Este script genera visualizaciones tipo *radar plot* para representar de manera compacta y visual los valores de las seis métricas relacionadas con el temblor (todas excepto DTF ; mencionadas previamente) por tarea y sesión.
 
@@ -77,6 +77,15 @@ Este script genera visualizaciones tipo *radar plot* para representar de manera 
 **Aplicación:** Estas gráficas facilitan la comparación de la evolución de los parámetros entre sesiones y tareas, y forman parte de los resultados incluidos en el TFG.
 
 ---
+
+#### 4. Cáculo del MInimum Detectable Change (*cálculo_MDC.m*)
+
+COn este sript se calcula el valor del MDC para cada uno de los 6 parámetros relacionados con el temblor para cada una de las tareas(RE, DT y AO) (en este caso se toma RE1 y RE2 como iguales)
+
+**Aplicación:** Con los valores obtenidos podemos comparar los deltas temporales POST-PRE y POST24-PRE para cada parámetro y sujeto y evaluar si el cambio que se ha producido es debido al tratamiento SATS o si en cambio no lo podemos confirmar.
+
+---
+
 
 ### Consideraciones Finales
 
