@@ -1,1 +1,1 @@
-# TFG_PD_tremor_analysis
+# TFG_EP_analisis_temblor
